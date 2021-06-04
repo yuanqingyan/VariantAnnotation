@@ -66,6 +66,6 @@ cat ./tmp/temp_GT.txt >> ./tmp/GT.txt
 paste -d '\t' ./tmp/tempus.anno.hg19_multianno.txt ./tmp/tempus.VariantType ./tmp/vcf_sample.txt ./tmp/GT.txt ./tmp/DP_locus.txt ./tmp/DP_alt.txt ./tmp/VAF.txt> ./finalResult/TempusAnnotated.txt
 ```
 
-### To keep the variant detected at least one of the sample, a R program was written. Run the R program to obtain the file of "TempusAnnotated_short.txt"
+### To keep the variant detected at least one of the samples, a R program was written. Run the R program to obtain the file of "TempusAnnotated_short.txt"
 
 
