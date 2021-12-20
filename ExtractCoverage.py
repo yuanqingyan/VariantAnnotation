@@ -7,7 +7,7 @@ import re
 
 currentPath=os.getcwd()
 #####################################################################################
-help_menu='''\nUsage: python tempus_ExtractCoverage.py -inputData xxxxx
+help_menu='''\nUsage: python ExtractCoverage.py -inputData xxxxx
 **parameters**
 '''
 
